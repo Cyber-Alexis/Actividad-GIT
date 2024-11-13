@@ -8,15 +8,20 @@ public class Actividad_Git {
 		int[] subArray = {785675, 56, 5675, 56544, 234};
 		int[] prodArray = {6, 8, 20, 23, 12};
 		
-		// User 1 fer la suma dels elements de sumArray Alexis
+
+		// User 1 fer la suma dels elements de sumArray (Alexis)
 		
 		
 		
-		// User 2 fer la resta dels elements de subArray
+		// User 2 fer la resta dels elements de subArray (Marc)
 		
+        int result = subArray[0];
+        for (int i = 1; i < subArray.length; i++) {
+            result -= subArray[i];
+        }
+        System.out.println("El resultado de la resta es: " + result);
 		
-		
-		// User 3 fer la multiplicació dels elements de prodArray
+		// User 3 fer la multiplicació dels elements de prodArray (Pol)
 	}
 
 }
