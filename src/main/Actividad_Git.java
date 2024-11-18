@@ -16,9 +16,9 @@ public class Actividad_Git {
 		
 		
 		
-		// User 3 fer la multiplicació dels elements de prodArray 
+		// User 3 fer la multiplicació dels elements de prodArray (Pol)
 		
-		int resultMul = 0;
+		int resultMul;
 
 		for(int i = 0; i < prodArray.length; i++) {
 
