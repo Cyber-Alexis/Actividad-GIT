@@ -10,7 +10,12 @@ public class Actividad_Git {
 		
 		// User 1 fer la suma dels elements de sumArray Alexis
 		
-		
+		int sum = 0;
+		for (int num : sumArray) {
+		    sum += num;
+		}
+		System.out.println("La suma dels elements de sumArray és: " + sum);
+
 		
 		// User 2 fer la resta dels elements de subArray
 		
