@@ -28,14 +28,12 @@ public class Actividad_Git {
 		
 		// User 3 fer la multiplicació dels elements de prodArray (Pol)
 		
-		int resultMul;
+        int result = 1;
 
-		for(int i = 0; i < prodArray.length; i++) {
-
-		resultMul = resultMul * prodArray[i];
-		}
-
-		System.out.println("Este es el resultado de la multiplicacion" + resultMul);
+        for (int i = 0; i < prodArray.length; i++) {
+            result *= prodArray[i];
+        }
+        System.out.println("El resultado de la multiplicación de los elementos del array es: " + result);
 	}
 
 }
