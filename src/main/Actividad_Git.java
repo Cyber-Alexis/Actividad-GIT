@@ -21,7 +21,17 @@ public class Actividad_Git {
         }
         System.out.println("El resultado de la resta es: " + result);
 		
-		// User 3 fer la multiplicació dels elements de prodArray (Pol)
+		
+		// User 3 fer la multiplicació dels elements de prodArray 
+		
+		int resultMul = 0;
+
+		for(int i = 0; i < prodArray.length; i++) {
+
+		resultMul = resultMul * prodArray[i];
+		}
+
+		System.out.println("Este es el resultado de la multiplicacion" + resultMul);
 	}
 
 }
